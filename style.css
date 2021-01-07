@@ -1,0 +1,126 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#topbar{
+    background: linear-gradient(57deg,#3498DB,#2ECC71);
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    
+}
+#logo{
+    width: 30%;
+    line-height: 60px;
+    text-align: center;
+}
+#menu{
+    width:40%;
+}
+#menu ul{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#menu ul li{
+    list-style: none;
+    line-height: 60px;
+}
+#link{
+    width: 30%;
+}
+i{
+    font-size: 30px;
+    padding-right: 20px;
+    
+}
+a{
+    line-height: 75px;
+}
+#link button{
+    font-weight: bold;
+    color: white;
+    padding:10px 10px;
+    border-radius: 15px;
+    background:red;
+    font-size: 20px;
+    position: relative;
+    top: -7.5px;
+}
+.middle{
+    width: 100%;
+    background: linear-gradient(57deg,#3498DB,#2ECC71);
+    float: left;
+    height: 50vh;
+    
+}
+.main-part{
+    width: 50%;
+   float: left;
+}
+#paragraph{
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    float: left;
+    margin-left: 185px;
+    margin-top: 20px;
+}
+#button{
+    border: 3px solid white;
+    width: 170px;
+    padding: 10px;
+    padding-left: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+    float: left;
+
+}
+p{
+    float: left;
+    margin-left: 10px;
+}
+#contact{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.footer{
+    width: 100%;
+    float: left;
+}
+.skill{
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+}
+.skill h1{
+    text-align: center;
+}
+.skill p{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.skill meter{
+    width: 210px;
+    margin-bottom: 20px;
+    
+    
+}
+.meter{
+    margin-left: 50px;
+    margin-top: 90px;
+}
+span{
+    margin-left: 100px;
+}
+.skill3{
+    margin-left: 65px;
+}
+.skill img{
+    width: 400px;
+    height: 350px;
+    
+}
